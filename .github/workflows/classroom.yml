@@ -1,0 +1,17 @@
+name: GitHub Classroom Workflow
+
+on: 
+  push:
+    paths:
+    - 'src/assignment.lean'
+
+jobs:
+  build:
+    name: Autograding
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 
+      - name: classroom autograding
+        uses: education/autograding@v1
