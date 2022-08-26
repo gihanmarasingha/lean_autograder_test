@@ -6,7 +6,7 @@ constant dah : ℕ
 
 lemma exercise : x = x := by refl  
 
-lemma another_exercise : 0 = 2 := sorry
+lemma another_exercise : 0 = 1 := sorry
 
 lemma yet_another_exercise: ℕ × ℕ × ℕ := ⟨ duh, doh, dah ⟩
 
