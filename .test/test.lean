@@ -31,6 +31,15 @@ end
 #print axioms check_problem1
 #print "---"
 
+theorem check_problem2 : 1 + 1 = 2 :=
+begin
+  sorry
+end
+
+#print "Problem 2"
+#print axioms check_problem2
+#print "---"
+
 /-
 theorem check_problem2 : 0 = 1 :=
 begin
